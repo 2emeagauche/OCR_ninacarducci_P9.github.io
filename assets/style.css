@@ -40,6 +40,7 @@ body {
 
 .social-link img {
 	width: 20px;
+	height: 20px;
 }
 
 #about {
@@ -69,7 +70,13 @@ body {
 
 .picture img {
 	width: 100%;
+	height: auto;
+	object-fit: cover;
+}
 
+.carousel-item img{
+	height: auto;
+	aspect-ratio: 2.16;
 }
 #about-me {
 	flex: 2
