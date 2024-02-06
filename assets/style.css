@@ -75,9 +75,18 @@ body {
 }
 
 .carousel-item img{
-	height: auto;
-	aspect-ratio: 2.16;
+		aspect-ratio: 2.16;
+		height: auto;
 }
+
+
+
+
+
+
+
+
+
 #about-me {
 	flex: 2
 }
