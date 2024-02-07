@@ -79,14 +79,6 @@ body {
 		height: auto;
 }
 
-
-
-
-
-
-
-
-
 #about-me {
 	flex: 2
 }
@@ -100,6 +92,12 @@ body {
 	font-weight: 800;
 	font-style: italic;
 	width: 60%;
+}
+#about-me .about-me__introduction {
+  font-size: 1rem;
+  margin-bottom: 0.5rem;
+  width: 60%;
+  line-height: 1.2;
 }
 #about-me p {
 	width: 80%;
@@ -161,9 +159,10 @@ body {
 }
 .quote__text {
 	font-family: Spectral;
-	font-style: italic;
-	font-weight: 300;
-
+  font-style: italic;
+  font-weight: 300;
+  font-size: 2.5rem;
+  line-height: 1.2;
 }
 .quote__author {
 	font-family: Spectral;
@@ -370,3 +369,11 @@ input[type="submit"] {
 	}
 }
 
+.h2, h2{
+	font-size: calc(1.3rem + .6vw);
+}
+@media (min-width: 1200px) {
+  .h2, h2{
+    font-size: 1.75rem;
+  }
+}
