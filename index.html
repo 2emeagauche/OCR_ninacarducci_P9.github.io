@@ -189,16 +189,16 @@
 	</section>
 </main>
 <footer>
-	<div>
+	<div itemscope itemtype=”http://schema.org/Photograph>
 		<h2>Mes coordonnées</h2>
 		<ul>
-			<li>
+			<li itemprop=”address” itemscope itemtype=”http://schema.org/PostalAddress”>
 				<h3>Adresse</h3>
-				<p>68 avenue Alsace-Lorraine, 33200 Bordeaux</p>
+				<p><span itemprop=”streetAddress”>68 avenue Alsace-Lorraine</span>, <span itemprop="postalCode">33200</span> <span itemprop="addressLocality">Bordeaux</span></p>
 			</li>
-			<li>
-				<h3>Téléphone <span>(du lundi au vendredi de 10h à 19h)</span></h3>
-				<p>05 56 67 78 89</p>
+			<li itemprop=”telephone” itemscope itemtype=”http://schema.org/telephone”>
+				<h3>Téléphone <span itemprop="openingHours">(du lundi au vendredi de 10h à 19h)</span></h3>
+				<p itemprop="telephone">05 56 67 78 89</p>
 			</li>
 		</ul>
 	</div>
