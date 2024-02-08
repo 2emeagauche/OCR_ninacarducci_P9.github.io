@@ -5,6 +5,7 @@
 	<meta name="description" content="Nina Carducci, photographe professionnelle à Bordeaux. Je propose des Shooting photo, la conception d'Albums et de la retouche photo.">
 	<meta charset="UTF-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<!-- <link rel="preload" fetchpriority="high" href="./assets/images/nina_245.webp 245w" as="image"> -->
 	<link rel="stylesheet" href="./assets/bootstrap/bootstrap.min.css">
 	<link rel="stylesheet" href="./assets/style.min.css">
 	<link rel="preconnect" href="https://fonts.googleapis.com">
@@ -74,7 +75,7 @@
 	</section>
 	<section id="about" aria-labelledby="region1">
 		<div class="picture left">
-			<img srcset="./assets/images/nina_245.webp 245w, ./assets/images/nina_554.webp 554w" src="./assets/images/nina_554.webp" alt="portrait de Nina" width="554" height="554">
+			<img fetchpriority="high" srcset="./assets/images/nina_245.webp 245w, ./assets/images/nina_554.webp 554w" src="./assets/images/nina_554.webp" alt="portrait de Nina" width="554" height="554">
 		</div>
 		<div id="about-me">
 			<h2 class="about-me__title" id="region1">A propos de moi</h2>
@@ -189,14 +190,14 @@
 	</section>
 </main>
 <footer>
-	<div itemscope itemtype=”http://schema.org/Photograph>
+	<div itemscope itemtype="http://schema.org/Photograph">
 		<h2>Mes coordonnées</h2>
 		<ul>
-			<li itemprop=”address” itemscope itemtype=”http://schema.org/PostalAddress”>
+			<li itemprop="address" itemscope itemtype="http://schema.org/PostalAddress">
 				<h3>Adresse</h3>
-				<p><span itemprop=”streetAddress”>68 avenue Alsace-Lorraine</span>, <span itemprop="postalCode">33200</span> <span itemprop="addressLocality">Bordeaux</span></p>
+				<p><span itemprop="streetAddress">68 avenue Alsace-Lorraine</span>, <span itemprop="postalCode">33200</span> <span itemprop="addressLocality">Bordeaux</span></p>
 			</li>
-			<li itemprop=”telephone” itemscope itemtype=”http://schema.org/telephone”>
+			<li itemprop="telephone" itemscope itemtype="http://schema.org/telephone">
 				<h3>Téléphone <span itemprop="openingHours">(du lundi au vendredi de 10h à 19h)</span></h3>
 				<p itemprop="telephone">05 56 67 78 89</p>
 			</li>
@@ -204,8 +205,8 @@
 	</div>
 </footer>
 </body>
+<script src="./assets/scripts.js" defer></script>
 <script src="./assets/bootstrap/bootstrap.bundle.min.js" defer></script>
 <script src="https://code.jquery.com/jquery-3.4.1.min.js" integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous" defer></script>
 <script src="./assets/maugallery.min.js" defer></script>
-<script src="./assets/scripts.js" defer></script>
 </html>
