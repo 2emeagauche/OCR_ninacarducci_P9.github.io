@@ -19,16 +19,13 @@
       "@context": "https://schema.org",
       "@type": "ProfessionalService",
       "name": "Nina Carducci",
+			"specialty": "Photographe",
       "address": {
         "@type": "PostalAddress",
         "streetAddress": "68 avenue Alsace-Lorraine",
         "addressLocality": "Bordeaux",
         "postalCode": "33200",
         "addressCountry": "France"
-      },
-			"author": {
-				"@type": "Person",
-				"name": "Nina Carducci"
       },
       "telephone": "05 56 67 78 89",
       "openingHoursSpecification": [
@@ -72,30 +69,33 @@
 			</div>
 			<div class="carousel-inner">
 				<div class="carousel-item active">
-					<img 
-							srcset="./assets/images/slider/ryoji-iwata_350.webp 350w,
-											./assets/images/slider/ryoji-iwata_820.webp 820w,
-											./assets/images/slider/ryoji-iwata_1220.webp 1220w,
-											./assets/images/slider/ryoji-iwata_1920.webp 1920w"
-							sizes="100vw"
+					<img fetchpriority="high"
+							srcset="./assets/images/slider/ryoji-iwata_300.webp 300w,
+											./assets/images/slider/ryoji-iwata_1140.webp 1140w,
+											./assets/images/slider/ryoji-iwata_1580.webp 1580w,
+											./assets/images/slider/ryoji-iwata_1920.webp 1920w,
+											./assets/images/slider/ryoji-iwata_2048.webp 2048w"
+							sizes="(min-width: 2040px) 1920px, calc(94.19vw + 17px)"
 							src="./assets/images/slider/ryoji-iwata_1920.webp" width="1920" height="887" class="d-block w-100" alt="un premier exemple de photo">
-				</div>
-				<div class="carousel-item">
-					<img
-							srcset="./assets/images/slider/nicholas-green_350.webp 350w,
-							./assets/images/slider/nicholas-green_820.webp 820w,
-							./assets/images/slider/nicholas-green_1220.webp 1220w,
-							./assets/images/slider/nicholas-green_1920.webp 1920w"
-							sizes="100vw"
+						</div>
+						<div class="carousel-item">
+							<img
+							srcset="./assets/images/slider/nicholas-green_300.webp 300w,
+											./assets/images/slider/nicholas-green_1140.webp 1140w,
+											./assets/images/slider/nicholas-green_1580.webp 1580w,
+											./assets/images/slider/nicholas-green_1920.webp 1920w,
+											./assets/images/slider/nicholas-green_2048.webp 2048w"
+							sizes="(min-width: 2040px) 1920px, calc(94.19vw + 17px)"
 							src="./assets/images/slider/nicholas-green_1920.webp" width="1920" height="887" class="d-block w-100" alt="un second exemple de photo">
-				</div>
-				<div class="carousel-item">
-					<img
-							srcset="./assets/images/slider/edward-cisneros_350.webp 350w,
-							./assets/images/slider/edward-cisneros_820.webp 820w,
-							./assets/images/slider/edward-cisneros_1220.webp 1220w,
-							./assets/images/slider/edward-cisneros_1920.webp 1920w"
-							sizes="100vw"
+						</div>
+						<div class="carousel-item">
+							<img
+							srcset="./assets/images/slider/edward-cisneros_300.webp 300w,
+											./assets/images/slider/edward-cisneros_1140.webp 1140w,
+											./assets/images/slider/edward-cisneros_1580.webp 1580w,
+											./assets/images/slider/edward-cisneros_1920.webp 1920w,
+											./assets/images/slider/edward-cisneros_2048.webp 2048w"
+							sizes="(min-width: 2040px) 1920px, calc(94.19vw + 17px)"
 							src="./assets/images/slider/edward-cisneros_1920.webp" width="1920" height="887" class="d-block w-100" alt="un troisième exemple de photo">
 				</div>
 			</div>
@@ -111,7 +111,11 @@
 	</section>
 	<section id="about" aria-labelledby="region1">
 		<div class="picture left">
-			<img fetchpriority="high" srcset="./assets/images/nina_245.webp 245w, ./assets/images/nina_554.webp 554w" src="./assets/images/nina_554.webp" alt="portrait de Nina" width="554" height="554">
+			<img
+						srcset="./assets/images/nina_245.webp 245w,
+										./assets/images/nina_554.webp 554w"
+						sizes="(min-width: 2020px) 560px, (min-width: 1200px) calc(30vw - 40px), (min-width: 660px) calc(46.15vw - 75px), calc(80vw - 51px)"
+						src="./assets/images/nina_554.webp" alt="portrait de Nina" width="554" height="554">
 		</div>
 		<div id="about-me">
 			<h2 class="about-me__title" id="region1">A propos de moi</h2>
