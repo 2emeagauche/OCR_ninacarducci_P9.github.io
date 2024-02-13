@@ -1663,6 +1663,10 @@ progress {
   display: block !important;
 }
 
+.d-flex {
+  display: flex !important;
+}
+
 .w-100 {
   width: 100% !important;
 }
@@ -1674,4 +1678,10 @@ progress {
 .my-4 {
   margin-top: 1.5rem !important;
   margin-bottom: 1.5rem !important;
+}
+
+@media (min-width: 768px) {
+  .d-md-flex {
+    display: flex !important;
+  }
 }
